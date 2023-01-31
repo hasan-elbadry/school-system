@@ -1,0 +1,268 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+    string choice ;
+    string choice2 ;
+      string choice3 ;
+      int doyouwant;
+       int sn;
+        string studentnum[sn];
+
+cout<<"\n\t\t\t\t\t\t login as\n\n\n\n";
+cout<<"\t\t\t\t\t\t 1.admin\n\n";
+cout<<"\t\t\t\t\t\t 2.student\n\n";
+cout<<"\t\t\t\t\t\t 3.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice;
+     if(choice=="2"){
+            cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t\t\t\t\t\t |logged in as student|\n\n";
+cout<<"\t\t\t\t\t\t 1.see all studying subjects\n\n";
+cout<<"\t\t\t\t\t\t 2.main menu\n\n";
+cout<<"\t\t\t\t\t\t 3.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice3;
+ if(choice3=="1"){
+        cout<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t math  \t english \t arabic \t computer science \t citizenship \t capstone \t physice";
+    cout<<"\t\t  80  \t    89 \t           90 \t                95 \t             86 \t    89 \t           96";
+ }
+ if(choice3=="2"){
+cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
+cout<<"\n\t\t\t\t\t\t login as\n\n\n\n";
+cout<<"\t\t\t\t\t\t 1.admin\n\n";
+cout<<"\t\t\t\t\t\t 2.student\n\n";
+cout<<"\t\t\t\t\t\t 3.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice;
+     if(choice=="2"){
+            cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t\t\t\t\t\t |logged in as student|\n\n";
+cout<<"\t\t\t\t\t\t 1.see all studying subjects\n\n";
+cout<<"\t\t\t\t\t\t 2.main menu\n\n";
+cout<<"\t\t\t\t\t\t 3.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice3;
+ if(choice3=="1"){
+        cout<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t math  \t english \t arabic \t computer science \t citizenship \t capstone \t physice";
+    cout<<"\t\t  80  \t    89 \t           90 \t                95 \t             86 \t    89 \t           96";
+ }
+ if(choice3=="2"){
+
+ }
+ if(choice3=="3"){
+       return 0;
+ }
+
+   }
+       else if(choice=="3"){
+
+    return 0;
+   }
+    if(choice=="1"){
+        cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t\t\t\t\t\t |logged in as admin|\n\n";
+cout<<"\t\t\t\t\t\t 1.add student\n\n";
+
+cout<<"\t\t\t\t\t\t 2.view all student\n\n";
+cout<<"\t\t\t\t\t\t 3.main menu\n\n";
+cout<<"\t\t\t\t\t\t 4.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice2;
+     if(choice2=="1"){
+        cout<<"how many student do you want to add?";
+
+        cin>>sn;
+      string studentnum[sn];
+          for(int i=0;i<sn;i++){
+            cout<<"enter the name:";
+            cin>>studentnum[i];
+
+          }
+cout<<"the student you enter is:\n";
+ for(int i=0;i<sn;i++){
+
+            cout<<studentnum[i]<<endl;
+
+}
+     }
+     else if(choice2=="2"){
+
+           cout<<"ahmed\t\t\t abdelsamad\n";
+           cout<<"mohmed\t\t\t zina\n";
+           cout<<"akram\t\t\t mariem\n";
+           cout<<"omar\t\t\t shro2\n";
+           cout<<"basan\t\t\t yehya\n";
+           cout<<"aymn\t\t\t abdelhamed\n";
+           cout<<"hossam\t\t\t afroto\n";
+           cout<<"hasan\t\t\t marawan mussa\n";
+           cout<<"abdelrhman\t\t\t om kolsom\n";
+
+          }
+          else if(choice2=="3"){
+            }
+ else if(choice2=="4"){
+      return 0;
+ }
+     }
+
+
+
+
+
+
+    return 0;
+ }
+ if(choice3=="3"){
+       return 0;
+ }
+
+   }
+       else if(choice=="3"){
+
+    return 0;
+   }
+    if(choice=="1"){
+        cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t\t\t\t\t\t |logged in as admin|\n\n";
+cout<<"\t\t\t\t\t\t 1.add student\n\n";
+
+cout<<"\t\t\t\t\t\t 2.view all student\n\n";
+cout<<"\t\t\t\t\t\t 3.main menu\n\n";
+cout<<"\t\t\t\t\t\t 4.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice2;
+     if(choice2=="1"){
+        cout<<"how many student do you want to add?";
+
+        cin>>sn;
+      string studentnum[sn];
+          for(int i=0;i<sn;i++){
+            cout<<"enter the name:";
+            cin>>studentnum[i];
+
+          }
+cout<<"the student you enter is:\n";
+ for(int i=0;i<sn;i++){
+
+            cout<<studentnum[i]<<endl;
+
+}
+     }
+     else if(choice2=="2"){
+
+           cout<<"ahmed\t\t\t abdelsamad\n";
+           cout<<"mohmed\t\t\t zina\n";
+           cout<<"akram\t\t\t mariem\n";
+           cout<<"omar\t\t\t shro2\n";
+           cout<<"basan\t\t\t yehya\n";
+           cout<<"aymn\t\t\t abdelhamed\n";
+           cout<<"hossam\t\t\t afroto\n";
+           cout<<"hasan\t\t\t marawan mussa\n";
+           cout<<"abdelrhman\t\t\t om kolsom\n";
+
+          }
+          else if(choice2=="3"){
+                cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
+cout<<"\n\t\t\t\t\t\t login as\n\n\n\n";
+cout<<"\t\t\t\t\t\t 1.admin\n\n";
+cout<<"\t\t\t\t\t\t 2.student\n\n";
+cout<<"\t\t\t\t\t\t 3.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice;
+     if(choice=="2"){
+            cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t\t\t\t\t\t |logged in as student|\n\n";
+cout<<"\t\t\t\t\t\t 1.see all studying subjects\n\n";
+cout<<"\t\t\t\t\t\t 2.main menu\n\n";
+cout<<"\t\t\t\t\t\t 3.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice3;
+ if(choice3=="1"){
+        cout<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t math  \t english \t arabic \t computer science \t citizenship \t capstone \t physice";
+    cout<<"\t\t  80  \t    89 \t           90 \t                95 \t             86 \t    89 \t           96";
+ }
+ if(choice3=="2"){
+
+ }
+ if(choice3=="3"){
+       return 0;
+ }
+
+   }
+       else if(choice=="3"){
+
+    return 0;
+   }
+    if(choice=="1"){
+        cout<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl<<endl;
+    cout<<"\t\t\t\t\t\t |logged in as admin|\n\n";
+cout<<"\t\t\t\t\t\t 1.add student\n\n";
+
+cout<<"\t\t\t\t\t\t 2.view all student\n\n";
+cout<<"\t\t\t\t\t\t 3.main menu\n\n";
+cout<<"\t\t\t\t\t\t 4.exit\n\n";
+ cout<<"\t\t\t\t\t\t enter your choice:";
+ cin>>choice2;
+     if(choice2=="1"){
+        cout<<"how many student do you want to add?";
+
+        cin>>sn;
+      string studentnum[sn];
+          for(int i=0;i<sn;i++){
+            cout<<"enter the name:";
+            cin>>studentnum[i];
+
+          }
+cout<<"the student you enter is:\n";
+ for(int i=0;i<sn;i++){
+
+            cout<<studentnum[i]<<endl;
+
+}
+     }
+     else if(choice2=="2"){
+
+           cout<<"ahmed\t\t\t abdelsamad\n";
+           cout<<"mohmed\t\t\t zina\n";
+           cout<<"akram\t\t\t mariem\n";
+           cout<<"omar\t\t\t shro2\n";
+           cout<<"basan\t\t\t yehya\n";
+           cout<<"aymn\t\t\t abdelhamed\n";
+           cout<<"hossam\t\t\t afroto\n";
+           cout<<"hasan\t\t\t marawan mussa\n";
+           cout<<"abdelrhman\t\t\t om kolsom\n";
+
+          }
+          else if(choice2=="3"){
+            }
+ else if(choice2=="4"){
+      return 0;
+ }
+     }
+
+
+
+
+
+
+    return 0;
+            }
+ else if(choice2=="4"){
+      return 0;
+ }
+     }
+
+
+
+
+
+
+    return 0;
+}
